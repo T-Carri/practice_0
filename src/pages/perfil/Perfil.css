@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: gray;
+}
+header{
+    height: 5em;
+background-color: rgb(124, 6, 6);
+}
+div.NavBar.nav.nav-pills{
+    padding: 1.5em;
+}
+section.root{
+    position: fixed;
+    width: 150em;
+    display: inline;
+}
+section.section1{
+background-color: rgb(255, 255, 255);
+display: inline-flex;
+align-items: stretch;
+height: 53em;
+width: 90em;
+min-width: 2%;
+min-height: 4%;
+margin-left: 30%;
+
+}
+section.section2{
+background-color: rgb(83, 0, 100);
+display: inline-flex ;
+align-items: stretch;
+position: relative;
+width: 20em;
+max-width: 20%;
+margin-right: -5%;
+}
+
