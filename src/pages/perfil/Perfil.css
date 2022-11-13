@@ -8,9 +8,7 @@ header{
     height: 5em;
 background-color: rgb(124, 6, 6);
 }
-div.NavBar.nav.nav-pills{
-    padding: 1.5em;
-}
+
 section.root{
     position: fixed;
     width: 150em;
@@ -19,12 +17,13 @@ section.root{
 section.section1{
 background-color: rgb(255, 255, 255);
 display: inline-flex;
+position: absolute;
 align-items: stretch;
-height: 53em;
-width: 90em;
+height: 40em;
+width: 80%;
 min-width: 2%;
 min-height: 4%;
-margin-left: 30%;
+margin-left: 0%;
 
 }
 section.section2{
@@ -32,8 +31,26 @@ background-color: rgb(83, 0, 100);
 display: inline-flex ;
 align-items: stretch;
 position: relative;
-width: 20em;
+width: 15%;
 max-width: 20%;
 margin-right: -5%;
 }
 
+
+.navbar{
+    --bs-navbar-brand-margin-end: 100rem;
+}
+.container{
+    --bs-gutter-x:1.5em;
+    padding-left: calc(var(--bs-gutter-x) * -9.5);
+    margin-left: 40px;
+}
+
+
+div.purple{
+    height: 10em;
+    width: 5%;
+}
+div.tarup{
+    width: 5%;
+}
